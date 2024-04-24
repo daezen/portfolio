@@ -1,8 +1,22 @@
+---
+import AvailableToWork from './AvailableToWork.astro'
+import ContactMe from './ContactMe.astro'
+---
+
 <header class="h-[600px] flex flex-col justify-center">
-  <h1 class="text-5xl font-bold mb-8">I'm Angel – Front-end developer</h1>
-  <p class="mb-8 text-4xl">Lorem</p>
-  <div class="flex gap-8">
-    <button>Contact me</button>
-    <span>Available to work</span>
+  <h1 class="font-bold mb-4 h1-clamp">I'm Daezen – Frontend developer</h1>
+  <p class="mb-12 leading-10 p-clamp max-w-2xl text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis assumenda recusandae, nesciunt nobis aspernatur molestiae!</p>
+  <div class="flex gap-4 items-center">
+    <ContactMe />
+    <AvailableToWork />
   </div>
 </header>
+
+<style>
+  .h1-clamp {
+    font-size: clamp(1.69rem, 4vw, 3rem);
+  }
+  .p-clamp {
+    font-size: clamp(1.3rem, 3vw, 2.25rem);
+  }
+</style>

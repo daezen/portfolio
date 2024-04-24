@@ -1,4 +1,23 @@
 <section>
-  <h2>Projects</h2>
-  <div></div>
+  <h2 class="h1-clamp font-bold">Projects</h2>
+  <div class="grid-cols-[1fr_150px_1fr] grid-rows-2 grid h-[85vh] gap-5">
+    <div class="relative bg-zinc-950 rounded-3xl col-span-2 overflow-hidden">
+      <a href="#">
+        <div class="absolute w-full flex flex-col items-center p-4">
+          <p class="font-semibold">To-do App</p>
+          <p class="text-base text-center">Simplify tasks, boost productivity. Our straightforward app helps you stay organized effortlessly.</p>
+        </div>
+        <img draggable="false" src="todo.png" alt="Todo app preview" class="p-12 translate-y-24" />
+      </a>
+    </div>
+    <div class="bg-zinc-600 rounded-3xl"></div>
+    <div class="bg-zinc-600 rounded-3xl"></div>
+    <div class="bg-zinc-600 rounded-3xl col-span-2"></div>
+  </div>
 </section>
+
+<style>
+  .h1-clamp {
+    font-size: clamp(1.69rem, 4vw, 3rem);
+  }
+</style>
