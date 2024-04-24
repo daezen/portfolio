@@ -1,18 +1,58 @@
 <section>
-  <h2 class="h1-clamp font-bold">Projects</h2>
-  <div class="grid-cols-[1fr_150px_1fr] grid-rows-2 grid h-[85vh] gap-5">
-    <div class="relative bg-zinc-950 rounded-3xl col-span-2 overflow-hidden">
+  <h2 class="h1-clamp font-bold py-6">Projects</h2>
+  <div class="grid-cols-[1fr_150px_1fr] grid-rows-[1.2fr_1fr] grid h-[90vh] gap-5">
+    <div class="relative bg-zinc-950 rounded-3xl col-span-2 overflow-hidden group border-2 border-zinc-800">
       <a href="#">
-        <div class="absolute w-full flex flex-col items-center p-4">
-          <p class="font-semibold">To-do App</p>
-          <p class="text-base text-center">Simplify tasks, boost productivity. Our straightforward app helps you stay organized effortlessly.</p>
+        <div class="absolute w-full flex flex-col items-center p-4 z-10">
+          <p class="font-semibold">To-do app</p>
+          <p class="text-base text-center">JavaScript, CSS, HTML</p>
         </div>
-        <img draggable="false" src="todo.png" alt="Todo app preview" class="p-12 translate-y-24" />
+        <div
+          class="absolute w-full h-full before:absolute before:size-[300px] before:bg-zinc-600 before:rounded-full before:top-1/2 group-hover:before:translate-x-80 group-hover:before:-translate-y-56 before:translate-x-4 before:-translate-y-36 before:blur-[200px] before:transition-transform before:duration-300 ease-[cubic-bezier(0,1.1,.47,1)]"
+        >
+        </div>
+        <img draggable="false" src="todo.png" alt="Todo app preview" class="p-2 translate-y-24 drop-shadow-xl" />
       </a>
     </div>
-    <div class="bg-zinc-600 rounded-3xl"></div>
-    <div class="bg-zinc-600 rounded-3xl"></div>
-    <div class="bg-zinc-600 rounded-3xl col-span-2"></div>
+    <div class="relative bg-[#131517] rounded-3xl overflow-hidden group border-2 border-zinc-800">
+      <a href="#">
+        <div class="absolute w-full flex flex-col items-center p-4 z-10">
+          <p class="font-semibold">Etch-a-sketch</p>
+          <p class="text-base text-center">JavaScript, CSS, HTML</p>
+        </div>
+        <div
+          class="absolute w-full h-full before:absolute before:size-[200px] before:bg-blue-700 before:rounded-full before:top-1/2 group-hover:before:translate-x-72 group-hover:before:-translate-y-72 before:translate-x-[1500px] before:-translate-y-36 before:blur-[150px] before:transition-transform before:duration-300 ease-[cubic-bezier(0,1.1,.47,1)]"
+        >
+        </div>
+        <img draggable="false" src="etch.png" alt="Etch app preview" class="translate-y-16 scale-90" />
+      </a>
+    </div>
+    <div class="relative bg-[#121212] rounded-3xl overflow-hidden group border-2 border-zinc-800">
+      <a href="#">
+        <div class="absolute w-full flex flex-col items-center p-4 z-10">
+          <p class="font-semibold">Tic-tac-toe</p>
+          <p class="text-base text-center">JavaScript, CSS, HTML</p>
+        </div>
+        <div
+          class="absolute w-full h-full before:absolute before:size-[100px] before:bg-zinc-400 before:rounded-full before:top-1/2 before:left-1/2 group-hover:before:scale-150 before:-translate-x-1/2 before:-translate-y-1/2 before:blur-[100px] before:transition-transform before:duration-300 ease-[cubic-bezier(0,1.1,.47,1)]"
+        >
+        </div>
+        <img draggable="false" src="tictactoe.png" alt="Movies app preview" class="scale-[0.6]" />
+      </a>
+    </div>
+    <div class="relative bg-zinc-600 rounded-3xl col-span-2 overflow-hidden group border-2 border-zinc-800">
+      <a href="#">
+        <div class="absolute w-full flex flex-col items-center p-4 z-10 backdrop-blur-xl bg-zinc-800/80">
+          <p class="font-semibold">Movies</p>
+          <p class="text-base text-center">Astro, TailwindCSS, CSS, HTML</p>
+        </div>
+        <div
+          class="absolute w-full h-full before:absolute before:size-[300px] before:bg-zinc-600 before:rounded-full before:top-1/2 group-hover:before:translate-x-80 group-hover:before:-translate-y-56 before:translate-x-4 before:-translate-y-36 before:blur-[200px] before:transition-transform before:duration-300 ease-[cubic-bezier(0,1.1,.47,1)]"
+        >
+        </div>
+        <img draggable="false" src="movies.png" alt="Movies app preview" class="scale-[1.0275]" />
+      </a>
+    </div>
   </div>
 </section>
 
